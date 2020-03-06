@@ -62,7 +62,6 @@
 }
 
 #foto {
-    height: 10em;
     align-items: flex-end;
 }
 
@@ -136,7 +135,7 @@
     background-color: brown;
     display: flex;
     /*flex-direction: row;/*Para darle direccion*/
-    /*flex-wrap: wrap; /*Para que no se salgan de la pantalla*/
+    flex-wrap: wrap; /*Para que no se salgan de la pantalla*/
 
     justify-content: center;/*alinear de manera horizontal*/
 
