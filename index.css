@@ -116,3 +116,39 @@
 .bb {
     border-bottom: solid 1px lightslategrey;
 }
+
+
+.p-1 {
+    padding: 1.5em;
+}
+
+
+.m-1 {
+    margin: 1em;
+}
+
+
+
+
+
+
+.flex-container {
+    background-color: brown;
+    display: flex;
+    /*flex-direction: row;/*Para darle direccion*/
+    /*flex-wrap: wrap; /*Para que no se salgan de la pantalla*/
+
+    justify-content: center;/*alinear de manera horizontal*/
+
+    height: 400px;/*alinear de manera vertical*/
+    align-items: center;/**/
+
+    align-content: center;
+}
+
+.flex-container div {
+    background-color: cadetblue;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.25em;
+}
