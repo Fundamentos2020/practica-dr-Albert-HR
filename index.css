@@ -50,3 +50,69 @@
 [class *= "col-"] {
     float: left;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rr {
+    background-color: orangered;
+}
+
+#foto {
+    height: 10em;
+    align-items: flex-end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-withe{
+    color: white;
+}
+
+.mm {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.mx {
+    border: solid 1px lightslategrey;
+}
+
+.py-1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.re{
+    background-color: red;
+}
+
+.mo {
+    background-color: purple;
+}
+
+.az {
+    background-color: blue;
+}
+
+.ve {
+    background-color: green;
+}
+
+.am {
+    background-color:  yellow;
+}
+
+.na {
+    background-color: orange;
+}
+
+
+.bb {
+    border-bottom: solid 1px lightslategrey;
+}
